@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Typography, Grid, Box } from '@mui/material';
+import { Container, Typography, Grid, Box, Button } from '@mui/material';
 
 function Farmers() {
   const [farmers] = useState([
@@ -40,6 +40,19 @@ function Farmers() {
             </Grid>
           ))}
         </Grid>
+
+        <Box sx={{ mt: 4, textAlign: 'center' }}>
+          <Button
+            variant="contained"
+            color="secondary"
+            size="large"
+            href="https://forms.gle/A5b5zdattutvGx8H7"
+            target="_blank"
+            sx={{ background: 'linear-gradient(to right, #ff7e5f, #feb47b)', color: '#fff' }}
+          >
+            Farmer Mental Health Survey
+          </Button>
+        </Box>
       </Box>
     </Container>
   );

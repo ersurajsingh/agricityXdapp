@@ -36,7 +36,7 @@ const Marketplace = () => {
   };
 
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" sx={{ background: 'linear-gradient(to bottom, #a8e6cf, #dcedc1)' }}>
       <Box sx={{ my: 4 }}>
         <Typography variant="h3" gutterBottom>
           Marketplace
